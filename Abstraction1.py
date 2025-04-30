@@ -8,7 +8,7 @@ class phone(ABC):
         print("this phone uses usb-c charging")
 class redminote6pro(phone):
     def call(self):
-        print("calling from redmi note 6 pro...")
+        print("calling from redmi note 6 pro")
     def chargingtype(self):
         print("this phone uses usb-c charging")
     def internetaccess(self):
